@@ -2,35 +2,28 @@
 <html>
 
 <head>
-  <title>Hangman-Game</title>
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
-  <script type="text/javascript" src="assets/game.js"></script>
+  <meta charset="utf-8">
+  <title>Crystal Game</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900" rel="stylesheet">
+
 </head>
 
 <body>
-  <div class="imadummy">
-    <div class="container">
-      <header>
-        <h1>Hangman</h1>
-        <h3>Press a letter to begin.</h3>
-      </header>
-      <div id="score">
-        <div class="panel-body">
-          <ul class="list-inline">
-            <li><strong>Wins: </strong><span id="numWins"></span></li>
-            <li><strong>Losses: </strong><span id="numLosses"></span></li>
-            <li><strong>Guesses Left: </strong><span id="guessLeft"></span></li>
-          </ul>
-          <p><strong>Your Guesses so far: </strong><br><span id="incorrectGuesses"></span></p>
-        </div>
-      </div>
-      <div id="wordArea">
-        <div>
-          <span id="wordDisplay"></span>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div id="grad">
+    <p id="result"></p>
 
+    <div class="crystals">
+
+    </div>
+
+    <p id="previous"></p>
+
+    <p id="win"></p>
+    <p id="losses"></p>
+  </div>
+  <script src="assets/game.js"></script>
 </body>
+
+</html>
