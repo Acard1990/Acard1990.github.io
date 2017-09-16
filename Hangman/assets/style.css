@@ -1,0 +1,15 @@
+
+body {
+background-size: 1280px;
+background-image: url(http://az616578.vo.msecnd.net/files/2016/12/10/636169376243365702-411526874_maxresdefault.jpg);
+color: #888;
+font-family: 'Orbitron', sans-serif;
+}
+
+.imadummy {
+float: left;
+width: 40%;
+margin-left: 8%;
+margin-top: 1%;
+padding: 1%;
+}

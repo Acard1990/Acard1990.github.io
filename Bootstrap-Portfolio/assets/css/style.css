@@ -1,0 +1,202 @@
+body {	
+	background: #333;
+	font-family: 'Orbitron', sans-serif;
+}
+
+p {
+	color: #777;
+	float: left; 
+	display: inline;
+} 
+
+p:hover {
+	color: white;
+}
+
+img {
+	opacity: .75;
+	width: 25%;
+	float: left;
+}
+
+img:hover {
+	opacity: 1;
+} 
+
+.main-body {
+	width: 80%;
+}
+
+.logogit {
+	margin-left: 5%;
+}
+
+.logolink {
+	margin-left: 5%;
+}
+
+.asidebox {
+	height: 10%
+}
+
+ .copyright { 
+ 	width: 100%;
+ 	position: absolute;
+ 	bottom: 0;
+ 	min-height:40px; 
+ 	background-color:#222;
+ }
+
+ .copyright p { 
+ 	text-align:left;
+ 	color:#777; 
+ 	padding:10px 0; 
+ 	margin-bottom:0px;
+ }
+
+ /*.heading7 { 
+ 	font-size:21px; 
+ 	font-weight:700; 
+ 	color:#777; 
+ 	margin-bottom:22px;
+ }*/
+
+ .bottom_ul { 
+ 	list-style-type:none; 
+ 	float:right; 
+ 	margin-bottom:0px;
+ }
+
+ .bottom_ul li { 
+ 	float:left; 
+ 	line-height:40px;
+ }
+
+ .bottom_ul li:after { 
+ 	content:"/"; 
+ 	color:#777; 
+ 	margin-right:8px; 
+ 	margin-left:8px;
+ }
+
+ .bottom_ul li a { 
+ 	color:#777;  
+ 	font-size:12px;
+ }
+
+@media screen and (max-width: 980px) {
+	
+	.main-body {
+		max-width: 100%;
+		height: 100%;
+		margin: 3% 5% 3% 5%;
+	
+	}
+
+	.profilepic {
+		width: 30%;
+		float: left;
+		margin: 2%;
+	} 
+	
+	p {
+		width: 60%;
+		float: left;
+		margin: 1%;
+
+	}
+	
+	.LI-badge-container-horizontal-dark, .LI-badge-container {
+		
+		float: left;
+		
+		} 
+
+
+}
+@media screen and (max-width: 768px) {
+
+	.main-body {
+		max-width: 100%;
+		height: 80%;
+		margin: 7% 5% 3% 5%;
+	
+	}
+
+	.LI-badge-container-horizontal-dark, .LI-badge-container {
+		
+		width: 100%;
+		margin-bottom: 7%;
+
+	} 
+
+	.profilepic {
+		width: 100%;
+		float: left;
+		margin: 2%;
+	} 	
+
+	.footer {
+		bottom: 0;
+		position: fixed;
+		background: #fff;
+		height: 4%;
+		width: 100%;
+	}
+
+	#container {
+		min-height: 100%;
+		height: 100%;
+
+	}
+
+	.navbar {
+		position: fixed;
+		top: 0;
+		margin-bottom: 6%;
+		width: 100%
+	}
+}
+@media screen and (max-width: 640px) {
+	
+
+	.main-body {
+		width: 90%;
+		max-width: 90%;
+		height: 100%
+		
+	}
+
+	.profilepic {
+		margin-top: 10%;
+	}
+
+	.asidebox {
+		display: inline-block;
+		float: left;
+	}
+
+	.LI-badge-container-horizontal-dark, .LI-badge-container {
+		
+		width: 50%;
+		margin-bottom: 30%;
+		float: left;
+		clear: all;
+	} 
+
+	li {
+		display: inline;
+		/*display: none !important;*/
+		float: right;
+	}
+
+	a {
+		display: inline-block;
+	}
+
+	.bottom_ul {
+		display: inline-block;
+	}
+
+   
+}
