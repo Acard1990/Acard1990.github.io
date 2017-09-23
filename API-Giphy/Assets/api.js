@@ -56,16 +56,16 @@ $(document).ready(function() {
                  images.attr("alt", "gif image");
 //============     below is some troubleshooting experiments for the animations.
 //this was a tough assignment.
-                .attr({
-                  //setting intial src to still image
-                  'src': response.data[s].images.fixed_height_still.url,
-                  //storing still image in attribute named data-still
-                  'data-still': response.data[s].images.fixed_height_still.url,
-                  //storing animated gif in attribute named data-animate
-                  'data-animate': response.data[s].images.fixed_height.url,
-                  //storing conditional term to be used later to flip on or off the gif animation
-                  'data-state': 'still'
-                });
+                // .attr({
+                //   //setting intial src to still image
+                //   'src': response.data.images.fixed_height_still.url,
+                //   //storing still image in attribute named data-still
+                //   'data-still': response.data.images.fixed_height_still.url,
+                //   //storing animated gif in attribute named data-animate
+                //   'data-animate': response.data.images.fixed_height.url,
+                //   //storing conditional term to be used later to flip on or off the gif animation
+                //   'data-state': 'still'
+                // });
 //==============
                 // Prepending the Images to the images div
                 $("#gifs").prepend(images);
