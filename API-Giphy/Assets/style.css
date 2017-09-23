@@ -1,12 +1,13 @@
 * {
-  background: black;
-  color: white;
+  background: linear-gradient(to right,#e65c00, #F9D423);
+  color: Black;
+  font-family: 'Orbitron', sans-serif;
 }
 
-body {
-  background: black;
+.btn {
+  box-shadow: 3px 3px black;
 }
-
-#gifs {
-  margin: 5%;
+.form-inline {
+  margin-top: 3%;
+  margin-left: 60%;
 }
