@@ -1,5 +1,6 @@
 {
-  "name": "mern",
+  "name": "ScottsApp",
+  "homepage": "https://Acard1990.github.io",
   "version": "1.0.0",
   "description": "Mern Demo",
   "main": "server.js",
@@ -8,16 +9,19 @@
     "client": "cd client && npm run start",
     "start": "./node_modules/.bin/concurrently \"./node_modules/.bin/nodemon\" \"npm run client\"",
     "build": "cd client && npm run build",
-    "deploy": "yarn build && git add . && git commit -m \"Building for production\" && git push heroku master",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^3.5.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "gh-pages": "^1.1.0"
   },
   "dependencies": {
     "express": "^4.15.4"
-  }
+  },
+  "homepage": "https://Acard1990.github.io"
 }
